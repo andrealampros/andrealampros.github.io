@@ -8,7 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #f1f1f1;
+    background-color: bisque;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 hr {
     max-width: 50px;
     border-color: #f05f40;
-    border-width: 3px;
+    border-width: 6px;
 }
 
 hr.light {
@@ -26,12 +26,12 @@ hr.light {
 }
 
 p{
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Merriweather','Helvetica Neue',Arial,sans-serif;
     color: #777;
 }
 
 a {
-    color: #f05f40;
+    color: darkslategray;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -39,7 +39,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: darkslategray;
 }
 
 h1,
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Palatino','Helvetica Neue',Arial,sans-serif;
     font-weight: bold;
 }
 
@@ -92,8 +92,8 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: 600;
     color: rgba(255,255,255,.7);
 }
 
@@ -170,7 +170,7 @@ fieldset[disabled] .btn-default:active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
     border-color: #fff;
-    background-color: #fff;
+    background-color: coral;
 }
 
 .btn-default .badge {
@@ -228,7 +228,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #f05f40;
-    background-color: #fff;
+    background-color: chocolate;
 }
 
 .btn {
@@ -266,7 +266,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #222;
+    webkit-tap-highlight-color: #555;
 }
 
 .container{
@@ -283,5 +283,5 @@ body {
     box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
 }
 .inner-box > p{
-    padding: 10px;
+    padding: 30px;
 }
